@@ -1,0 +1,50 @@
+body {
+    font-family: Arial;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+/* TITULOS */
+h1 {
+    color: #ff6600;
+}
+
+.subtitulo {
+    margin: 10px;
+}
+
+.subtitulo2 {
+    margin-bottom: 30px;
+}
+
+/* CARDS */
+.card {
+    width: 220px;
+    display: inline-block;
+    margin: 10px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* ICONO */
+.icono img {
+    width: 50px;
+}
+
+/* BOTON */
+.btn-cerrar {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    text-align: center;
+    background: #fff;
+}
+
+.logo {
+    width: 150px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #ff6600;
+}
+
+.btn-volver {
+    margin: 20px;
+    padding: 10px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}

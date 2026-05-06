@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cuenta de Consumo</title>
+
+<link rel="stylesheet" href="cuentaconsumo.css">
+</head>
+
+<body>
+
+<button onclick="window.location.href='menuprincipal.html'">← Menú</button>
+
+<h1>Cuenta de Consumo</h1>
+
+<input type="text" id="producto" placeholder="Producto">
+<input type="number" id="cantidad" placeholder="Cantidad">
+<input type="number" id="precio" placeholder="Precio">
+
+<select id="modulo">
+<option>Tienda</option>
+<option>Bar</option>
+</select>
+
+<select id="categoria">
+<option>Bebidas</option>
+<option>Comidas</option>
+</select>
+
+<button onclick="agregarConsumo()">Agregar consumo</button>
+
+<div id="listaConsumos"></div>
+
+<h2>Total: <span id="totalCuenta">$0</span></h2>
+
+<script src="cuentaconsumo.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: #fafafa;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #ff6600;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #ff6600;
+    color: white;
+    border: none;
+}
+
+div p {
+    background: white;
+    padding: 10px;
+    margin: 5px 0;
+}
